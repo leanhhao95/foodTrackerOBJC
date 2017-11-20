@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC81D34D1FC294A100AFC759"
+               BuildableName = "foodTrackeOBJC.app"
+               BlueprintName = "foodTrackeOBJC"
+               ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC81D3661FC294A100AFC759"
+               BuildableName = "foodTrackeOBJCTests.xctest"
+               BlueprintName = "foodTrackeOBJCTests"
+               ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC81D3711FC294A100AFC759"
+               BuildableName = "foodTrackeOBJCUITests.xctest"
+               BlueprintName = "foodTrackeOBJCUITests"
+               ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC81D34D1FC294A100AFC759"
+            BuildableName = "foodTrackeOBJC.app"
+            BlueprintName = "foodTrackeOBJC"
+            ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC81D34D1FC294A100AFC759"
+            BuildableName = "foodTrackeOBJC.app"
+            BlueprintName = "foodTrackeOBJC"
+            ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC81D34D1FC294A100AFC759"
+            BuildableName = "foodTrackeOBJC.app"
+            BlueprintName = "foodTrackeOBJC"
+            ReferencedContainer = "container:foodTrackeOBJC.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

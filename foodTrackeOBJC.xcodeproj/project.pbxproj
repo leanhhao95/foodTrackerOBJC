@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC350FA81FC2C4B1007700BF /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC350FA71FC2C4B1007700BF /* Meal.m */; };
 		DC81D3531FC294A100AFC759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3521FC294A100AFC759 /* main.m */; };
 		DC81D3561FC294A100AFC759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3551FC294A100AFC759 /* AppDelegate.m */; };
-		DC81D3591FC294A100AFC759 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3581FC294A100AFC759 /* ViewController.m */; };
 		DC81D35C1FC294A100AFC759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC81D35A1FC294A100AFC759 /* Main.storyboard */; };
 		DC81D35E1FC294A100AFC759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC81D35D1FC294A100AFC759 /* Assets.xcassets */; };
 		DC81D3611FC294A100AFC759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC81D35F1FC294A100AFC759 /* LaunchScreen.storyboard */; };
 		DC81D36C1FC294A100AFC759 /* foodTrackeOBJCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D36B1FC294A100AFC759 /* foodTrackeOBJCTests.m */; };
 		DC81D3771FC294A100AFC759 /* foodTrackeOBJCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3761FC294A100AFC759 /* foodTrackeOBJCUITests.m */; };
+		DC81D3861FC2991C00AFC759 /* MealTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3851FC2991C00AFC759 /* MealTableViewController.m */; };
+		DC81D3891FC2993500AFC759 /* MealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81D3881FC2993500AFC759 /* MealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC350FA71FC2C4B1007700BF /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
 		DC81D34E1FC294A100AFC759 /* foodTrackeOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodTrackeOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC81D3521FC294A100AFC759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC81D3541FC294A100AFC759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC81D3551FC294A100AFC759 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC81D3571FC294A100AFC759 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DC81D3581FC294A100AFC759 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DC81D35B1FC294A100AFC759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC81D35D1FC294A100AFC759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC81D3601FC294A100AFC759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,10 @@
 		DC81D3721FC294A100AFC759 /* foodTrackeOBJCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodTrackeOBJCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC81D3761FC294A100AFC759 /* foodTrackeOBJCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodTrackeOBJCUITests.m; sourceTree = "<group>"; };
 		DC81D3781FC294A100AFC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC81D3841FC2991C00AFC759 /* MealTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealTableViewController.h; sourceTree = "<group>"; };
+		DC81D3851FC2991C00AFC759 /* MealTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealTableViewController.m; sourceTree = "<group>"; };
+		DC81D3871FC2993500AFC759 /* MealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealViewController.h; sourceTree = "<group>"; };
+		DC81D3881FC2993500AFC759 /* MealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,11 @@
 			children = (
 				DC81D3541FC294A100AFC759 /* AppDelegate.h */,
 				DC81D3551FC294A100AFC759 /* AppDelegate.m */,
-				DC81D3571FC294A100AFC759 /* ViewController.h */,
-				DC81D3581FC294A100AFC759 /* ViewController.m */,
+				DC81D3841FC2991C00AFC759 /* MealTableViewController.h */,
+				DC81D3851FC2991C00AFC759 /* MealTableViewController.m */,
+				DC81D3871FC2993500AFC759 /* MealViewController.h */,
+				DC81D3881FC2993500AFC759 /* MealViewController.m */,
+				DC350FA71FC2C4B1007700BF /* Meal.m */,
 				DC81D35A1FC294A100AFC759 /* Main.storyboard */,
 				DC81D35D1FC294A100AFC759 /* Assets.xcassets */,
 				DC81D35F1FC294A100AFC759 /* LaunchScreen.storyboard */,
@@ -273,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC81D3591FC294A100AFC759 /* ViewController.m in Sources */,
+				DC350FA81FC2C4B1007700BF /* Meal.m in Sources */,
+				DC81D3891FC2993500AFC759 /* MealViewController.m in Sources */,
 				DC81D3561FC294A100AFC759 /* AppDelegate.m in Sources */,
+				DC81D3861FC2991C00AFC759 /* MealTableViewController.m in Sources */,
 				DC81D3531FC294A100AFC759 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +519,7 @@
 				DC81D37D1FC294A100AFC759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC81D37E1FC294A100AFC759 /* Build configuration list for PBXNativeTarget "foodTrackeOBJCTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +528,7 @@
 				DC81D3801FC294A100AFC759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC81D3811FC294A100AFC759 /* Build configuration list for PBXNativeTarget "foodTrackeOBJCUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +537,7 @@
 				DC81D3831FC294A100AFC759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
